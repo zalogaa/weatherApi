@@ -70,7 +70,7 @@ public class UserGui extends VerticalLayout {
 
 		taCities.setValue(sb.toString());
 	}
-
+	
 	private String kelvinToCelcius(String kel) {
 
 		return String.valueOf(Math.floor(Double.valueOf(kel) - 272.15));
